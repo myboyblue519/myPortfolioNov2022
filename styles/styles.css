@@ -353,7 +353,7 @@ p {
   position: relative;
   padding: 10px;
   text-decoration: none;
-  color: white;
+  color: #0D0A0B;
 }
 .navBarLinks ul li a::after {
   content: "";
@@ -410,6 +410,11 @@ main .aboutMe p {
   font-weight: 300;
 }
 
+@media (max-width: 1000px) {
+  main {
+    height: 60vh;
+  }
+}
 @media (max-width: 500px) {
   .toggleButton {
     display: flex;
