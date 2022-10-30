@@ -1,0 +1,23 @@
+@use "variables" as *;
+
+main{
+    background-color: $thirdColor;
+    height: 50vh;
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+        h3{
+            box-shadow: 10px 5px 5px $fifthColor;     
+            font-family: 'Bebas Neue', cursive;
+            font-size: 3rem;
+    }
+         p{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 1.8rem;
+        font-weight: 300;
+    }
+}
+}

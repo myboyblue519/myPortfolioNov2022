@@ -1,0 +1,70 @@
+@use "variables" as *;
+
+
+@media (max-width: 400px) {
+    .toggleButton {
+        display: flex;
+    }   
+    
+    .navBar {
+        flex-direction: column;
+        align-items: flex-start;
+        height: 215px;
+    .navBarLinks {
+        display: none;
+        width: 100%;
+        ul{
+            width: 100%;
+            flex-direction: column;
+            background-color:rgba(0, 0, 0, 0.345);
+
+            li{
+                text-align: center;
+                a{
+                    padding: .5rem 1rem;
+                }
+            }  
+            
+        }
+    }
+    }
+
+
+    .navBarLinks.active{
+        display: flex;
+    }
+.header{
+    height: 80vh;
+    .greeting {
+        h1{
+            font-size: 4rem;
+        }
+        h2{
+            font-size: 2.7rem;
+            margin: 0;
+        }
+    }
+}
+
+main{
+    height: 70vh;
+    .aboutMe{
+    p{
+        font-size: 1.4rem;
+    }
+}
+}
+
+.skills{
+    height: 70vh;
+    .logos{
+        ul{
+            li{
+                padding: 10px;
+            }
+        }
+    }
+}
+
+
+}

@@ -1,0 +1,16 @@
+@use "variables" as *;
+
+
+footer {
+      height: 10vh;
+      text-align: center;
+      background-color:$firstColor;
+     p {
+      font-family: 'Source Sans Pro', sans-serif;
+      color: $forthColor;
+      margin: 0;
+      font-size: 1.3rem;
+      font-weight: 300;
+      letter-spacing: 8px;
+     }
+}

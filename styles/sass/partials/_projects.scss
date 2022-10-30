@@ -1,0 +1,34 @@
+@use "variables" as *;
+
+.projects {
+    height: 165vh;
+    height: 48%;
+    background-color: $thirdColor;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    div {
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;        
+        text-align: center;
+        // height: 70vh;
+        width: 40%;
+        margin: 10px;
+        border: 2px solid grey;
+    img{
+        height:250px;
+        width: 100%;
+        object-fit: cover; 
+        // height: 40%;       
+    }
+    button {
+        margin: 10px;
+        width: 45%;
+        color: $forthColor;
+    }
+    
+    }
+
+}

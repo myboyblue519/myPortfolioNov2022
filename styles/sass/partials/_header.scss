@@ -1,0 +1,47 @@
+@use "variables" as *;
+
+.header {
+    height: 80vh;
+    background-image: url("../assets/Rainystreet.jpg");
+    
+    // background-color: fuchsia;
+    .greeting{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-size: cover;
+        background-color: transparent;
+        h1{
+            font-family: 'Bebas Neue', cursive;
+            font-size: 5rem;
+            margin: auto auto 0;
+        }
+        h2{
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 3rem;
+            font-weight: 300;
+        }
+       button{
+            width:200px ;
+            position: relative;
+            overflow:hidden ;
+        .buttonEffect {
+            color: white;
+            background:$fifthColor;
+            height: 100%;
+            width: 0;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            z-index: -1;
+            transition: .5s;
+            }
+        }
+        button:hover .buttonEffect{
+            width: 100%;
+        }
+    }
+    
+
+}

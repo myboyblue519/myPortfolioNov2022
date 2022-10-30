@@ -1,0 +1,560 @@
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article, aside, footer, header, nav, section {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+figcaption, figure, main {
+  display: block;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+b, strong {
+  font-weight: inherit;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+code, kbd, samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+audio, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+img {
+  border-style: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button, input {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, html [type=button], [type=reset], [type=submit] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type=checkbox], [type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details, menu {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+canvas {
+  display: inline-block;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  padding: 0 20px;
+  max-width: 1400px;
+  margin: auto;
+  width: 90%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #B87D4B;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+html {
+  font-size: 125%;
+}
+
+button {
+  background-color: transparent;
+  color: white;
+  border: 2px solid #B87D4B;
+  border-radius: 10px;
+  z-index: 10;
+  width: 200px;
+  position: relative;
+  overflow: hidden;
+}
+button .buttonEffect {
+  color: white;
+  background: #B87D4B;
+  height: 100%;
+  width: 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+button:hover .buttonEffect {
+  width: 100%;
+}
+
+h1, h2, h3, h4 {
+  color: #0D0A0B;
+}
+
+p {
+  color: #AD6A6C;
+}
+
+.header {
+  height: 80vh;
+  background-image: url("../assets/Rainystreet.jpg");
+}
+.header .greeting {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-size: cover;
+  background-color: transparent;
+}
+.header .greeting h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 5rem;
+  margin: auto auto 0;
+}
+.header .greeting h2 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 3rem;
+  font-weight: 300;
+}
+.header .greeting button {
+  width: 200px;
+  position: relative;
+  overflow: hidden;
+}
+.header .greeting button .buttonEffect {
+  color: white;
+  background: #B87D4B;
+  height: 100%;
+  width: 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s;
+}
+.header .greeting button:hover .buttonEffect {
+  width: 100%;
+}
+
+.navBar {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.5rem;
+  width: 100%;
+  height: 15%;
+  background-color: clear;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-color: transparent;
+  color: #DED9E2;
+}
+
+.navBarLinks {
+  display: flex;
+}
+.navBarLinks ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.navBarLinks ul li {
+  list-style: none;
+}
+.navBarLinks ul li a {
+  display: inline-block;
+  position: relative;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+.navBarLinks ul li a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(white, #AD6A6C, #0D0A0B);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-in;
+  transform: scaleX(0);
+}
+.navBarLinks ul li a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.toggleButton {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40px;
+  height: 31px;
+}
+.toggleButton .bar {
+  height: 3px;
+  width: 100%;
+  background-color: #0D0A0B;
+  border-radius: 10px;
+}
+
+main {
+  background-color: #DED9E2;
+  height: 50vh;
+}
+main .aboutMe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .aboutMe h3 {
+  box-shadow: 10px 5px 5px #B87D4B;
+  font-family: "Bebas Neue", cursive;
+  font-size: 3rem;
+}
+main .aboutMe p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+@media (max-width: 400px) {
+  .toggleButton {
+    display: flex;
+  }
+  .navBar {
+    flex-direction: column;
+    align-items: flex-start;
+    height: 215px;
+  }
+  .navBar .navBarLinks {
+    display: none;
+    width: 100%;
+  }
+  .navBar .navBarLinks ul {
+    width: 100%;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.345);
+  }
+  .navBar .navBarLinks ul li {
+    text-align: center;
+  }
+  .navBar .navBarLinks ul li a {
+    padding: 0.5rem 1rem;
+  }
+  .navBarLinks.active {
+    display: flex;
+  }
+  .header {
+    height: 80vh;
+  }
+  .header .greeting h1 {
+    font-size: 4rem;
+  }
+  .header .greeting h2 {
+    font-size: 2.7rem;
+    margin: 0;
+  }
+  main {
+    height: 70vh;
+  }
+  main .aboutMe p {
+    font-size: 1.4rem;
+  }
+  .skills {
+    height: 70vh;
+  }
+  .skills .logos ul li {
+    padding: 10px;
+  }
+}
+.projects {
+  height: 165vh;
+  height: 48%;
+  background-color: #DED9E2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.projects div {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 40%;
+  margin: 10px;
+  border: 2px solid grey;
+}
+.projects div img {
+  height: 250px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.projects div button {
+  margin: 10px;
+  width: 45%;
+  color: #0D0A0B;
+}
+
+.skills {
+  height: 60vh;
+  background-color: #8CB369;
+}
+.skills h3 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 3rem;
+}
+.skills .skillSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.skills .logos ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.skills .logos ul li {
+  padding: 20px;
+}
+.skills .logos ul li p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.2rem;
+}
+.skills .logos ul li:hover {
+  color: orangered;
+}
+.skills .logos ul ul:nth-child(2):hover {
+  color: blue;
+}
+
+.contact {
+  text-align: center;
+  background-color: #8CB369;
+}
+.contact .contactInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact .contactInfo div {
+  padding: 20px;
+}
+.contact .contactInfo h3 {
+  box-shadow: 10px 5px 5px #B87D4B;
+  font-family: "Bebas Neue", cursive;
+  font-size: 3rem;
+}
+.contact .contactInfo button {
+  width: 200px;
+}
+
+footer {
+  height: 10vh;
+  text-align: center;
+  background-color: #AD6A6C;
+}
+footer p {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #0D0A0B;
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 300;
+  letter-spacing: 8px;
+}/*# sourceMappingURL=styles.css.map */

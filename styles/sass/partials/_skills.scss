@@ -1,0 +1,38 @@
+@use "variables" as *;
+
+.skills {
+    height: 60vh;
+    background-color: $secondColor;
+    h3{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 3rem;
+    }
+    .skillSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .logos {
+        ul{
+            display: flex;
+            list-style: none;
+            flex-wrap: wrap;
+        li{
+            padding: 20px;
+        p{
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 1.2rem;
+        }
+        }
+        li:hover {
+            color: orangered;
+        }
+        ul:nth-child(2):hover {
+            color: blue;
+        }
+        }
+
+
+    }
+}
