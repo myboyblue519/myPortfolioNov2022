@@ -1,15 +1,30 @@
 @use "variables" as *;
 
 
-@media (max-width: 1000px) {
+@media (max-width:1000px) {
     
     main {
         height: 60vh;
     }
 
+    .skills{
+        height: 70vh;
+        li{
+            padding: 30px;
+        }
+    }
+}
+
+@media (max-width: 645px){
+    .skills{
+        height: 80vh;
+    }
+
 
 
 }
+
+
 @media (max-width: 500px) {
     .toggleButton {
         display: flex;

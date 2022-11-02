@@ -4,7 +4,7 @@
     height: 60vh;
     background-color: $secondColor;
     h3{
-        font-family: 'Bebas Neue', cursive;
+        font-family: 'Questrial', sans-serif;
         font-size: 3rem;
     }
     .skillSection {
@@ -18,6 +18,7 @@
             display: flex;
             list-style: none;
             flex-wrap: wrap;
+            justify-content: center;
         li{
             padding: 20px;
         p{
@@ -28,9 +29,9 @@
         li:hover {
             color: orangered;
         }
-        ul:nth-child(2):hover {
-            color: blue;
-        }
+        // ul:nth-child(2):hover {
+        //     color: blue;
+        // }
         }
 
 

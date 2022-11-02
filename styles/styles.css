@@ -235,7 +235,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: #B87D4B;
+  background-color: black;
 }
 
 img {
@@ -249,9 +249,10 @@ html {
 }
 
 button {
+  font-family: "Roboto", sans-serif;
   background-color: transparent;
   color: white;
-  border: 2px solid #B87D4B;
+  border: 2px solid #ffc971;
   border-radius: 10px;
   z-index: 10;
   width: 200px;
@@ -260,7 +261,7 @@ button {
 }
 button .buttonEffect {
   color: white;
-  background: #B87D4B;
+  background: #ffc971;
   height: 100%;
   width: 0;
   position: absolute;
@@ -275,11 +276,11 @@ button:hover .buttonEffect {
 }
 
 h1, h2, h3, h4 {
-  color: #0D0A0B;
+  color: #ffb627;
 }
 
 p {
-  color: #AD6A6C;
+  color: black;
 }
 
 .header {
@@ -295,23 +296,33 @@ p {
   background-color: transparent;
 }
 .header .greeting h1 {
-  font-family: "Bebas Neue", cursive;
+  font-family: "Questrial", sans-serif;
   font-size: 5rem;
   margin: auto auto 0;
+  text-shadow: 1px 1px black;
+}
+.header .greeting .luxem {
+  font-family: "Roboto", sans-serif;
+  font-size: 5rem;
+  margin: auto auto 0;
+  font-weight: 200;
 }
 .header .greeting h2 {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 3rem;
-  font-weight: 300;
+  font-weight: 200;
+  margin-top: 0;
+  text-shadow: 1px 1px black;
 }
 .header .greeting button {
+  font-family: "Questrial", sans-serif;
   width: 200px;
   position: relative;
   overflow: hidden;
 }
 .header .greeting button .buttonEffect {
   color: white;
-  background: #B87D4B;
+  background: #ffc971;
   height: 100%;
   width: 0;
   position: absolute;
@@ -325,7 +336,7 @@ p {
 }
 
 .navBar {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
   width: 100%;
   height: 15%;
@@ -334,7 +345,8 @@ p {
   justify-content: end;
   align-items: center;
   background-color: transparent;
-  color: #DED9E2;
+  color: #ff9505;
+  text-shadow: 1px 1px black;
 }
 
 .navBarLinks {
@@ -353,7 +365,7 @@ p {
   position: relative;
   padding: 10px;
   text-decoration: none;
-  color: #0D0A0B;
+  color: #ffb627;
 }
 .navBarLinks ul li a::after {
   content: "";
@@ -362,7 +374,7 @@ p {
   height: 5px;
   bottom: 0;
   left: 0;
-  background: linear-gradient(white, #AD6A6C, #0D0A0B);
+  background: linear-gradient(white, #AD6A6C, #ffb627);
   transform-origin: bottom right;
   transition: transform 0.25s ease-in;
   transform: scaleX(0);
@@ -385,12 +397,12 @@ p {
 .toggleButton .bar {
   height: 3px;
   width: 100%;
-  background-color: #0D0A0B;
+  background-color: #ffb627;
   border-radius: 10px;
 }
 
 main {
-  background-color: #DED9E2;
+  background-color: white;
   height: 50vh;
 }
 main .aboutMe {
@@ -400,19 +412,132 @@ main .aboutMe {
   align-items: center;
 }
 main .aboutMe h3 {
-  box-shadow: 10px 5px 5px #B87D4B;
-  font-family: "Bebas Neue", cursive;
+  box-shadow: 10px 5px 5px #ffc971;
+  font-family: "Questrial", sans-serif;
   font-size: 3rem;
 }
 main .aboutMe p {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.8rem;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
+  font-size: 1.8rem;
+}
+
+.projects {
+  font-family: "Roboto", sans-serif;
+  height: 165vh;
+  height: 48%;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.projects div {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 40%;
+  margin: 10px;
+  border: 2px solid grey;
+}
+.projects div img {
+  height: 250px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.projects div button {
+  margin: 10px;
+  width: 45%;
+  color: #ffb627;
+}
+
+.skills {
+  height: 60vh;
+  background-color: #e2711d;
+}
+.skills h3 {
+  font-family: "Questrial", sans-serif;
+  font-size: 3rem;
+}
+.skills .skillSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.skills .logos ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.skills .logos ul li {
+  padding: 20px;
+}
+.skills .logos ul li p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.2rem;
+}
+.skills .logos ul li:hover {
+  color: orangered;
+}
+
+.contact {
+  height: 60vh;
+  text-align: center;
+  background-color: #e2711d;
+}
+.contact .contactInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact .contactInfo div {
+  padding: 20px;
+}
+.contact .contactInfo div p {
+  font-family: "Roboto", sans-serif;
+}
+.contact .contactInfo h3 {
+  box-shadow: 10px 5px 5px #ffc971;
+  font-family: "Questrial", sans-serif;
+  font-size: 3rem;
+}
+.contact .contactInfo button {
+  width: 200px;
+}
+
+footer {
+  height: 10vh;
+  text-align: center;
+  background-color: #cc5803;
+}
+footer p {
+  font-family: "Roboto", sans-serif;
+  color: #ffb627;
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 300;
+  letter-spacing: 8px;
 }
 
 @media (max-width: 1000px) {
   main {
     height: 60vh;
+  }
+  .skills {
+    height: 70vh;
+  }
+  .skills li {
+    padding: 30px;
+  }
+}
+@media (max-width: 645px) {
+  .skills {
+    height: 80vh;
   }
 }
 @media (max-width: 500px) {
@@ -464,102 +589,4 @@ main .aboutMe p {
   .skills .logos ul li {
     padding: 10px;
   }
-}
-.projects {
-  height: 165vh;
-  height: 48%;
-  background-color: #DED9E2;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
-.projects div {
-  background-color: #fff;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  width: 40%;
-  margin: 10px;
-  border: 2px solid grey;
-}
-.projects div img {
-  height: 250px;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.projects div button {
-  margin: 10px;
-  width: 45%;
-  color: #0D0A0B;
-}
-
-.skills {
-  height: 60vh;
-  background-color: #8CB369;
-}
-.skills h3 {
-  font-family: "Bebas Neue", cursive;
-  font-size: 3rem;
-}
-.skills .skillSection {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.skills .logos ul {
-  display: flex;
-  list-style: none;
-  flex-wrap: wrap;
-}
-.skills .logos ul li {
-  padding: 20px;
-}
-.skills .logos ul li p {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.2rem;
-}
-.skills .logos ul li:hover {
-  color: orangered;
-}
-.skills .logos ul ul:nth-child(2):hover {
-  color: blue;
-}
-
-.contact {
-  text-align: center;
-  background-color: #8CB369;
-}
-.contact .contactInfo {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.contact .contactInfo div {
-  padding: 20px;
-}
-.contact .contactInfo h3 {
-  box-shadow: 10px 5px 5px #B87D4B;
-  font-family: "Bebas Neue", cursive;
-  font-size: 3rem;
-}
-.contact .contactInfo button {
-  width: 200px;
-}
-
-footer {
-  height: 10vh;
-  text-align: center;
-  background-color: #AD6A6C;
-}
-footer p {
-  font-family: "Source Sans Pro", sans-serif;
-  color: #0D0A0B;
-  margin: 0;
-  font-size: 1.3rem;
-  font-weight: 300;
-  letter-spacing: 8px;
 }/*# sourceMappingURL=styles.css.map */

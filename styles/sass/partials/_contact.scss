@@ -1,6 +1,7 @@
 @use "variables" as *;
 
 .contact {
+    height: 60vh;
     text-align: center;
     background-color: $secondColor;
     .contactInfo {
@@ -10,10 +11,14 @@
         align-items: center;
     div {
         padding: 20px;
+        p{
+
+            font-family: 'Roboto', sans-serif;
+        }
     }
     h3{
-        box-shadow: 10px 5px 5px $fifthColor;     
-        font-family: 'Bebas Neue', cursive;
+        box-shadow: 10px 5px 5px $fifthColor; 
+        font-family: 'Questrial', sans-serif;    
         font-size:  3rem;
     }
     button{

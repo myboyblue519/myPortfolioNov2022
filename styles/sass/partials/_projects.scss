@@ -1,12 +1,13 @@
 @use "variables" as *;
 
 .projects {
+    font-family: 'Roboto', sans-serif;
     height: 165vh;
     height: 48%;
-    background-color: $thirdColor;
+    background-color: white;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: center;   
     justify-content: center;
     div {
         background-color: #fff;

@@ -1,7 +1,7 @@
 @use "variables" as *;
 
 main{
-    background-color: $thirdColor;
+    background-color: white;
     height: 50vh;
 .aboutMe {
     display: flex;
@@ -10,14 +10,14 @@ main{
     align-items: center;
     
         h3{
-            box-shadow: 10px 5px 5px $fifthColor;     
-            font-family: 'Bebas Neue', cursive;
+            box-shadow: 10px 5px 5px $fifthColor; 
+            font-family: 'Questrial', sans-serif;    
             font-size: 3rem;
     }
-         p{
-        font-family: 'Source Sans Pro', sans-serif;
-        font-size: 1.8rem;
+    p{
+        font-family: 'Roboto', sans-serif;    
         font-weight: 300;
+        font-size: 1.8rem;
     }
 }
 }

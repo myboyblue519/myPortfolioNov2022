@@ -13,16 +13,29 @@
         background-size: cover;
         background-color: transparent;
         h1{
-            font-family: 'Bebas Neue', cursive;
+            font-family: 'Questrial', sans-serif;
             font-size: 5rem;
             margin: auto auto 0;
+            text-shadow: 1px 1px black;
         }
+        .luxem{
+            font-family: 'Roboto', sans-serif;
+            font-size: 5rem;
+            margin: auto auto 0;
+            font-weight: 200;
+        }
+
         h2{
-            font-family: 'Source Sans Pro', sans-serif;
+            font-family: 'Roboto', sans-serif;
             font-size: 3rem;
-            font-weight: 300;
+            font-weight: 200;
+            margin-top: 0;
+            text-shadow: 1px 1px black;
+
         }
+
        button{
+        font-family: 'Questrial', sans-serif;
             width:200px ;
             position: relative;
             overflow:hidden ;

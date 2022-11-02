@@ -17,13 +17,13 @@ html { box-sizing: border-box;}
 .wrapper {
    padding: 0 20px;
    max-width: 1400px;
-   margin: auto;
+   margin: auto; 
    width: 90%;
 }
 body {
     margin: 0;
     padding: 0;
-    background-color: $fifthColor;
+    background-color: black;
 }
 
 img {
@@ -38,6 +38,7 @@ img {
 
 
  button {
+    font-family: 'Roboto', sans-serif;
         background-color: transparent;
         color: white;
         border: 2px solid $fifthColor;
@@ -71,9 +72,9 @@ img {
      }
     
      p {
-        color: $firstColor;
+        color: black;
      }
-
+ 
     //  font-family: 'Bebas Neue', cursive;
 
     //  font-family: 'Source Sans Pro', sans-serif;
