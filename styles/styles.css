@@ -441,6 +441,9 @@ main .aboutMe p {
   margin: 10px;
   border: 2px solid grey;
 }
+.projects div h4 {
+  margin: 0;
+}
 .projects div img {
   height: 250px;
   width: 100%;
@@ -525,8 +528,11 @@ footer p {
 }
 
 @media (max-width: 1000px) {
-  main {
+  .aboutMe {
     height: 60vh;
+  }
+  p {
+    font-size: 1.5rem;
   }
   .skills {
     height: 70vh;
@@ -535,9 +541,25 @@ footer p {
     padding: 30px;
   }
 }
+.projects div {
+  height: 80vh;
+}
+
 @media (max-width: 645px) {
+  main .aboutMe {
+    height: 70vh;
+  }
+  main p {
+    font-size: 1.5rem;
+  }
   .skills {
     height: 80vh;
+  }
+  .projects {
+    flex-direction: column;
+  }
+  .projects div {
+    width: 80%;
   }
 }
 @media (max-width: 500px) {
@@ -579,9 +601,6 @@ footer p {
   .header .greeting h2 {
     font-size: 2.7rem;
     margin: 0;
-  }
-  main {
-    height: 70vh;
   }
   main .aboutMe p {
     font-size: 1.4rem;

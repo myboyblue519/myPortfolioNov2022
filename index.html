@@ -30,7 +30,7 @@
     <title>My Portfolio</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="home">
       <a href="#" class="toggleButton">
         <span class="bar"></span>
         <span class="bar"></span>
@@ -39,21 +39,21 @@
       <nav class="navBar">
         <div class="navBarLinks">
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
       <div class="greeting">
-        <h1>Matthew Van <span class="luxem">Luxemborg</span></h1>
+        <h1>Matthew <span class="luxem">Van Luxemborg</span></h1>
         <h2>Front End Web Developer</h2>
         <button><span class="buttonEffect"></span> Get in Touch</button>
       </div>
     </header>
     <main class="wrapper">
-      <div class="aboutMe">
+      <div class="aboutMe" id="about">
         <img src="" alt="" />
         <h3>About Me</h3>
         <p>
@@ -101,7 +101,7 @@
         </div>
       </div>
     </section>
-    <section class="projects wrapper">
+    <section class="projects wrapper" id="projects">
       <div>
         <img
           src="assets/Screenshot 2022-10-22 231349.png"
@@ -172,21 +172,27 @@
       </div>
       <div>
         <img src="assets/pexels-andre-moura-4021530.jpg" alt="" />
-        <h3>Project4</h3>
-        <h4>fahj;</h4>
+        <h3>Project3</h3>
+        <h4>Dog API</h4>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum impedit
           rem, amet optio odio nisi.
         </p>
         <span>
-          <button><span class="buttonEffect"></span>View Live</button
-          ><button><span class="buttonEffect"></span>View Code</button>
+          <button>
+            <span class="buttonEffect"></span>
+            <a href="https://cosmic-stardust-c6b26e.netlify.app/"> View Live</a>
+          </button>
+          <button>
+            <span class="buttonEffect"></span
+            ><a href="https://github.com/myboyblue519/arorajewel">View Code</a>
+          </button>
         </span>
       </div>
     </section>
     <section class="contact wrapper">
       <div class="contactInfo">
-        <h3>Contact</h3>
+        <h3 id="contact">Contact</h3>
         <div class="socialMediaLogos">
           <i class="fa-brands fa-linkedin fa-xl"></i>
           <i class="fa-brands fa-twitter fa-xl"></i>

@@ -3,9 +3,13 @@
 
 @media (max-width:1000px) {
     
-    main {
-        height: 60vh;
-    }
+    .aboutMe{
+            height: 60vh;
+        }
+        p{
+            font-size: 1.5rem;
+        }
+
 
     .skills{
         height: 70vh;
@@ -14,13 +18,32 @@
         }
     }
 }
+.projects{
+    div{
+        height: 80vh;
+    }
+}
 
 @media (max-width: 645px){
+    main{
+        .aboutMe{
+            height: 70vh;
+        }
+        p{
+            font-size: 1.5rem;
+        }
+    }
+    
     .skills{
         height: 80vh;
     }
 
-
+    .projects {
+        flex-direction: column;
+        div{
+            width: 80%;
+        }
+    }
 
 }
 
@@ -74,7 +97,6 @@
 }
 
 main{
-    height: 70vh;
     .aboutMe{
     p{
         font-size: 1.4rem;
