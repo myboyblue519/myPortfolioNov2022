@@ -573,6 +573,9 @@ footer p {
   .header .greeting h1 {
     font-size: 4rem;
   }
+  .header .greeting .luxem {
+    font-size: 4rem;
+  }
   .header .greeting h2 {
     font-size: 2.7rem;
     margin: 0;
