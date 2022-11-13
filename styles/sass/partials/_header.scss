@@ -1,11 +1,12 @@
 @use "variables" as *;
 
 .header {
-    height: 80vh;
+    height: 100vh;
     background-image: url("../assets/Rainystreet.jpg");
     
     // background-color: fuchsia;
     .greeting{
+        margin-top: 150px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -13,10 +14,12 @@
         background-size: cover;
         background-color: transparent;
         h1{
-            font-family: 'Questrial', sans-serif;
-            font-size: 5rem;
+            color: $fifthColor;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 3.3rem;
             margin: auto auto 0;
-            text-shadow: 1px 1px black;
+            text-shadow: 3px 2px black;
+            text-transform: uppercase;
         }
         .luxem{
             font-family: 'Roboto', sans-serif;
@@ -26,8 +29,10 @@
         }
 
         h2{
+            color: $fifthColor;
+
             font-family: 'Roboto', sans-serif;
-            font-size: 3rem;
+            font-size: 2.5rem;
             font-weight: 200;
             margin-top: 0;
             text-shadow: 1px 1px black;

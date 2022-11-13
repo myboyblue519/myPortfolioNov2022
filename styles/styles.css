@@ -252,7 +252,7 @@ button {
   font-family: "Roboto", sans-serif;
   background-color: transparent;
   color: white;
-  border: 2px solid #ffc971;
+  border: 2px solid #cc5803;
   border-radius: 10px;
   z-index: 10;
   width: 200px;
@@ -261,7 +261,7 @@ button {
 }
 button .buttonEffect {
   color: white;
-  background: #ffc971;
+  background: #cc5803;
   height: 100%;
   width: 0;
   position: absolute;
@@ -276,7 +276,7 @@ button:hover .buttonEffect {
 }
 
 h1, h2, h3, h4 {
-  color: #ffb627;
+  color: black;
 }
 
 p {
@@ -284,10 +284,11 @@ p {
 }
 
 .header {
-  height: 80vh;
+  height: 100vh;
   background-image: url("../assets/Rainystreet.jpg");
 }
 .header .greeting {
+  margin-top: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -296,10 +297,12 @@ p {
   background-color: transparent;
 }
 .header .greeting h1 {
-  font-family: "Questrial", sans-serif;
-  font-size: 5rem;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 3.3rem;
   margin: auto auto 0;
-  text-shadow: 1px 1px black;
+  text-shadow: 3px 2px black;
+  text-transform: uppercase;
 }
 .header .greeting .luxem {
   font-family: "Roboto", sans-serif;
@@ -308,8 +311,9 @@ p {
   font-weight: 200;
 }
 .header .greeting h2 {
+  color: white;
   font-family: "Roboto", sans-serif;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 200;
   margin-top: 0;
   text-shadow: 1px 1px black;
@@ -322,7 +326,7 @@ p {
 }
 .header .greeting button .buttonEffect {
   color: white;
-  background: #ffc971;
+  background: white;
   height: 100%;
   width: 0;
   position: absolute;
@@ -365,7 +369,7 @@ p {
   position: relative;
   padding: 10px;
   text-decoration: none;
-  color: #ffb627;
+  color: white;
 }
 .navBarLinks ul li a::after {
   content: "";
@@ -374,7 +378,7 @@ p {
   height: 5px;
   bottom: 0;
   left: 0;
-  background: linear-gradient(white, #AD6A6C, #ffb627);
+  background: linear-gradient(white, #AD6A6C, white);
   transform-origin: bottom right;
   transition: transform 0.25s ease-in;
   transform: scaleX(0);
@@ -397,7 +401,7 @@ p {
 .toggleButton .bar {
   height: 3px;
   width: 100%;
-  background-color: #ffb627;
+  background-color: white;
   border-radius: 10px;
 }
 
@@ -412,7 +416,7 @@ main .aboutMe {
   align-items: center;
 }
 main .aboutMe h3 {
-  box-shadow: 10px 5px 5px #ffc971;
+  box-shadow: 10px 5px 5px black;
   font-family: "Questrial", sans-serif;
   font-size: 3rem;
 }
@@ -453,7 +457,7 @@ main .aboutMe p {
 .projects div button {
   margin: 10px;
   width: 45%;
-  color: #ffb627;
+  color: #cc5803;
 }
 
 .skills {
@@ -505,7 +509,7 @@ main .aboutMe p {
   font-family: "Roboto", sans-serif;
 }
 .contact .contactInfo h3 {
-  box-shadow: 10px 5px 5px #ffc971;
+  box-shadow: 10px 5px 5px white;
   font-family: "Questrial", sans-serif;
   font-size: 3rem;
 }
@@ -520,7 +524,7 @@ footer {
 }
 footer p {
   font-family: "Roboto", sans-serif;
-  color: #ffb627;
+  color: white;
   margin: 0;
   font-size: 1.3rem;
   font-weight: 300;
