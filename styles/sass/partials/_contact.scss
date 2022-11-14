@@ -4,25 +4,35 @@
     height: 60vh;
     text-align: center;
     background-color: $secondColor;
+    color: $fifthColor;
+
     .contactInfo {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    div {
-        padding: 20px;
-        p{
+        color: $fifthColor;
 
-            font-family: 'Roboto', sans-serif;
+
+        div {
+            padding: 20px;
+
+            p {
+                color: $fifthColor;
+                font-family: 'Roboto', sans-serif;
+            }
+        }
+
+        h3 {
+            box-shadow: 10px 5px 5px $fifthColor;
+            font-family: 'Questrial', sans-serif;
+            font-size: 3rem;
+            color: $fifthColor;
+
+        }
+
+        button {
+            width: 200px;
         }
     }
-    h3{
-        box-shadow: 10px 5px 5px $fifthColor; 
-        font-family: 'Questrial', sans-serif;    
-        font-size:  3rem;
-    }
-    button{
-        width: 200px;
-    }
-}
 }

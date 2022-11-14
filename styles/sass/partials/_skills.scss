@@ -3,9 +3,11 @@
 .skills {
     height: 60vh;
     background-color: $secondColor;
+    color: $fifthColor;
     h3{
         font-family: 'Questrial', sans-serif;
         font-size: 3rem;
+        color: $fifthColor;
     }
     .skillSection {
         display: flex;
@@ -24,6 +26,7 @@
         p{
             font-family: 'Source Sans Pro', sans-serif;
             font-size: 1.2rem;
+            color: $fifthColor;
         }
         }
         li:hover {
