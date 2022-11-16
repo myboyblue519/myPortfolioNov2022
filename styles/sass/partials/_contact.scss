@@ -2,9 +2,10 @@
 
 .contact {
     height: 60vh;
+    background-image: url("../assets/blackStone.jpg");
     text-align: center;
-    background-color: $secondColor;
     color: $fifthColor;
+
 
     .contactInfo {
         display: flex;

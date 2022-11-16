@@ -295,14 +295,14 @@ button {
 }
 button .buttonEffect {
   color: white;
-  background: #000;
+  background: rgb(105, 104, 104);
   height: 100%;
   width: 0;
   position: absolute;
   left: 0;
   bottom: 0;
   z-index: -1;
-  transition: 0.5s;
+  transition: 1s;
 }
 
 button:hover .buttonEffect {
@@ -474,7 +474,8 @@ main .aboutMe p {
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 40%;
+  height: 90vh;
+  width: 45%;
   margin: 10px;
   border: 2px solid grey;
 }
@@ -491,10 +492,15 @@ main .aboutMe p {
   margin: 10px;
   width: 45%;
   color: #000;
+  z-index: 10;
+}
+.projects div button a {
+  text-decoration: none;
 }
 
 .skills {
   height: 60vh;
+  background-image: url("../assets/blackStone.jpg");
   background-color: rgb(47, 46, 46);
   color: white;
 }
@@ -529,8 +535,8 @@ main .aboutMe p {
 
 .contact {
   height: 60vh;
+  background-image: url("../assets/blackStone.jpg");
   text-align: center;
-  background-color: rgb(47, 46, 46);
   color: white;
 }
 .contact .contactInfo {
@@ -588,6 +594,9 @@ footer p {
 .projects div {
   height: 80vh;
 }
+.projects .projectCard p {
+  font-size: 1rem;
+}
 
 @media (max-width: 645px) {
   main .aboutMe {
@@ -636,23 +645,43 @@ footer p {
   .header {
     height: 80vh;
   }
+  .header .greeting {
+    margin-top: -35px;
+  }
   .header .greeting h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .header .greeting .luxem {
     font-size: 4rem;
   }
   .header .greeting h2 {
-    font-size: 2.7rem;
+    font-size: 1.7rem;
+    margin: 0;
+  }
+  main .aboutMe {
+    justify-content: flex-start;
+  }
+  main .aboutMe h3 {
+    font-size: 2rem;
     margin: 0;
   }
   main .aboutMe p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
   .skills {
     height: 70vh;
   }
   .skills .logos ul li {
     padding: 10px;
+  }
+  .projectCard p {
+    font-size: 1rem;
+  }
+  .projectCard .projects div button {
+    margin: 1px;
+    width: 85%;
+  }
+  .projectCard .projects div button a {
+    font-size: 90%;
   }
 }/*# sourceMappingURL=styles.css.map */

@@ -2,39 +2,48 @@
 
 .skills {
     height: 60vh;
+    background-image: url("../assets/blackStone.jpg");
+
     background-color: $secondColor;
     color: $fifthColor;
-    h3{
+
+    h3 {
         font-family: 'Questrial', sans-serif;
         font-size: 3rem;
         color: $fifthColor;
     }
+
     .skillSection {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
     .logos {
-        ul{
+        ul {
             display: flex;
             list-style: none;
             flex-wrap: wrap;
             justify-content: center;
-        li{
-            padding: 20px;
-        p{
-            font-family: 'Source Sans Pro', sans-serif;
-            font-size: 1.2rem;
-            color: $fifthColor;
-        }
-        }
-        li:hover {
-            color: orangered;
-        }
-        // ul:nth-child(2):hover {
-        //     color: blue;
-        // }
+
+            li {
+                padding: 20px;
+
+                p {
+                    font-family: 'Source Sans Pro', sans-serif;
+                    font-size: 1.2rem;
+                    color: $fifthColor;
+                }
+            }
+
+            li:hover {
+                color: orangered;
+            }
+
+            // ul:nth-child(2):hover {
+            //     color: blue;
+            // }
         }
 
 
