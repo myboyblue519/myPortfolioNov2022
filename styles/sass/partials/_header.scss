@@ -3,9 +3,9 @@
 .header {
     height: 100vh;
     background-image: url("../assets/mountain.jpg");
-    
+
     // background-color: fuchsia;
-    .greeting{
+    .greeting {
         margin-top: 150px;
         display: flex;
         align-items: center;
@@ -13,7 +13,8 @@
         flex-direction: column;
         background-size: cover;
         background-color: transparent;
-        h1{
+
+        h1 {
             color: $fifthColor;
             font-family: 'Courier New', Courier, monospace;
             font-size: 3.3rem;
@@ -21,14 +22,15 @@
             text-shadow: 3px 2px black;
             text-transform: uppercase;
         }
-        .luxem{
+
+        .luxem {
             font-family: 'Roboto', sans-serif;
             font-size: 5rem;
             margin: auto auto 0;
             font-weight: 200;
         }
 
-        h2{
+        h2 {
             color: $fifthColor;
 
             font-family: 'Roboto', sans-serif;
@@ -39,27 +41,30 @@
 
         }
 
-       button{
-        font-family: 'Questrial', sans-serif;
-            width:200px ;
+        button {
+            font-family: 'Questrial', sans-serif;
+            width: 200px;
             position: relative;
-            overflow:hidden ;
-        .buttonEffect {
-            color: white;
-            background:$fifthColor;
-            height: 100%;
-            width: 0;
-            position: absolute;
-            left: 0;
-            bottom: 0;
-            z-index: -1;
-            transition: .5s;
+            overflow: hidden;
+            color: black;
+
+            .buttonEffect {
+                color: black;
+                background: $fifthColor;
+                height: 100%;
+                width: 0;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                z-index: -1;
+                transition: .5s;
             }
         }
-        button:hover .buttonEffect{
+
+        button:hover .buttonEffect {
             width: 100%;
         }
     }
-    
+
 
 }
